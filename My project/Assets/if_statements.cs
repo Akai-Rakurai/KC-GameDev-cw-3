@@ -14,6 +14,10 @@ public class if_statements : MonoBehaviour
         {
             print(HeroName + " is stronger than " + VillainName);
         }
+        else if (HeroLv == VillainLv)
+        {
+            print(HeroName + " and " + VillainName + " are equally matched.");
+        }
         else
         {
             print(VillainName + " is stronger than " + HeroName);
